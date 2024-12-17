@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-   "homepage": "https://andrewsnapz.github.io/testimonial-card",
+  "homepage": "https://andrewsnapz.github.io/testimonial-card",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -13,8 +13,8 @@
     "test-ci": "vitest"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "styled-components": "^6.1.13"
   },
   "devDependencies": {
