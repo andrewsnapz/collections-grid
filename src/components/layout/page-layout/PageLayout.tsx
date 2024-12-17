@@ -10,21 +10,21 @@ const PageWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+
   /* Mobile */
-  padding-inline-start: 16px;
-  padding-inline-end: 16px;
+  padding-block: 64px;
+  padding-inline: 28px;
 
   @media (min-width: ${TABLET_SIZE}px) {
     /* Tablet */
-    padding-inline-start: 32px;
-    padding-inline-end: 32px;
+    padding-block: 64px;
+    padding-inline: 32px;
   }
 
   @media (min-width: ${DESKTOP_SIZE}px) {
     /* Desktop */
-    padding-inline-start: 32px;
-    padding-inline-end: 32px;
+    padding-block: 96px;
+    padding-inline: 32px;
   }
 `;
 

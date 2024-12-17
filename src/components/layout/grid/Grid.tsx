@@ -7,10 +7,6 @@ type GridProps = {
   children: ReactNode;
 } & ComponentPropsWithoutRef<ElementType>;
 
-type PrimaryGridRowProps = {
-  children: ReactNode;
-};
-
 const GridColumnWrapper = styled.div`
   /* Mobile */
   display: grid;
@@ -29,14 +25,14 @@ const GridColumnWrapper = styled.div`
   }
 `;
 
-const PrimaryGridRowWrapper = styled.div`
+export const PrimaryGridRow = styled.div`
   grid-row: span 2;
+`;
+
+export const SecondaryGridRow = styled.div`
+  grid-row: span 1;
 `;
 
 export function Grid(props: GridProps) {
   return <GridColumnWrapper {...props} />;
-}
-
-export function PrimaryGridRow({ children }: PrimaryGridRowProps) {
-  return <PrimaryGridRowWrapper>{children}</PrimaryGridRowWrapper>;
 }

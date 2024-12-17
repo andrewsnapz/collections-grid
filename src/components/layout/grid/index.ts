@@ -1,3 +1,3 @@
-import { Grid, PrimaryGridRow } from "./Grid.tsx";
+import { Grid, PrimaryGridRow, SecondaryGridRow } from "./Grid.tsx";
 
-export { Grid, PrimaryGridRow };
+export { Grid, PrimaryGridRow, SecondaryGridRow };
