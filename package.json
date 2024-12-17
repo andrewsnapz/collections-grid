@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://andrewsnapz.github.io/collections-card",
+  "homepage": "https://andrewsnapz.github.io/collections-grid",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
